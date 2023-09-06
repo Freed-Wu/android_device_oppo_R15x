@@ -18,12 +18,12 @@
 $(call inherit-product, vendor/twrp/config/common.mk)
 
 PRODUCT_MANUFACTURER := OPPO
-PRODUCT_NAME := twrp_R11s
-PRODUCT_DEVICE := R11s
+PRODUCT_NAME := twrp_R15x
+PRODUCT_DEVICE := R15x
 PRODUCT_BRAND := OPPO
-PRODUCT_MODEL := OPPO R11s
+PRODUCT_MODEL := OPPO R15x
 
-PRODUCT_BUILD_PROP_OVERRIDES += PRODUCT_NAME=R11s
+PRODUCT_BUILD_PROP_OVERRIDES += PRODUCT_NAME=R15x
 
 # Inherit from device-specific part of the product configuration
-$(call inherit-product, device/oppo/R11s/device.mk)
+$(call inherit-product, device/oppo/R15x/device.mk)

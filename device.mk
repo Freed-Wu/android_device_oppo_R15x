@@ -14,7 +14,7 @@
 # limitations under the License.
 #
 
-PRODUCT_HARDWARE := R11s
+PRODUCT_HARDWARE := R15x
 
 # Inherit from OEM SoC-common
 $(call inherit-product, device/oppo/sdm660-common/common.mk)

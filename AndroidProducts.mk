@@ -15,4 +15,4 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/twrp_R11s.mk
+    $(LOCAL_DIR)/twrp_R15x.mk
